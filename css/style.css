@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+/* selectores de etiquetas */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+/* selector de grupo */
+h1,h2,h3{
+    color: rgb(181, 18, 27);
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    color: #000814;
+    line-height: auto;
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 3.8rem;
+}
+
+h2{
+    font-size: 3.2rem;
+}
+
+h3{
+    font-size: 2.8rem;
+}
+
+/* selectores de clase */
+.textCenter{
+    text-align: center;
+}
+
+.textRight{
+    text-align: right;
+}
+
+.textLeft{
+    text-align: left;
+}
+
+.bg-beige{
+    background-color: rgba(234, 226, 183, .8);
+}
+
+.bg-bordo{
+    background-color:rgb(181, 18, 27);
+}
+
+#navegador img{
+    width:150px;
+    margin: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+    #navegador .nav-link{
+        font-size: 2em;
+    }
+
+    #navegador ul li a{
+        font-family: ;
+        background-image:linear-gradient(currentColor, currentColor);
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 2px;
+        transition: background-size .3s;
+    }
+
+    #navegador ul li a:hover{
+        color: rgb(0, 48, 73);
+        font-weight: 600;
+        background-size: 100% 2px;
+    }
+
+#pie{  
+    background-color: rgb(181, 18, 27);
+    justify-content: center;
+}
+
+    #pie .column{
+        padding-bottom: 15px;
+    }
+
+    #pie img{
+        width: 100px;
+    }
+
+    #pie p{
+        font-size: 1.2em;
+        color: #ffffff;
+    }
+
+    #pie .iconos{
+        width: 20px;
+    }
+
+/* Inicio css index.html*/
+
+#intro p{
+    font-size: 1.8rem;
+}
+
+#intro img{
+    border-radius: 5px;
+    transition: opacity 0.3s;
+}
+/*Fin arreglos inde*/
+
+/*inicio css nosotros.html*/
+#nosotros .intro p{
+    font-size: 2.3rem;
+}
+
+#nosotros img{
+    width: 100px;
+}
+
+.btn__bg--m{
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    background-color:rgb(181, 18, 27);
+    font-weight: 500; 
+    text-decoration: none;
+    font-size: 2.3rem;
+    display: flex;
+    justify-content: center;
+    margin: 5px 600px;
+}
+    
+.btn__bg--l{
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    background-color:rgb(181, 18, 27);
+    font-weight: 500; 
+    text-decoration: none;
+    font-size:large;
+    margin: 30px 30px;
+    padding: 10px 15px;
+}
+
+.timeLineBox{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.8rem; 
+    font-weight: 400; 
+    color: rgb(0, 48, 73); 
+    background:rgba(234, 226, 183, .8);
+    margin: 5px 500px;
+    padding: 10px 5px;
+    border: black 2px solid;
+}
+
+#productos{
+    display: flex;
+}    
+    #productos .bolleria{
+        padding: 0px 40px;
+        width: 5px 25px;
+    }
+ 
+.productos__text{
+    margin: 0px 30px;
+}
+
+.productos{
+    margin: 20px 20px;
+    padding: 5px 5px;
+}
+
+#clientes {
+    display: flex;
+}
+
+    #clientes .supermercados{
+        flex-direction: column;
+        align-self: center;
+    }
+
+    /* selector ID */
+#contacto{
+    /* propiedades */
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.formulario h3{
+    margin: 5px 15px;
+}
+
+form {
+    width: 50%;
+    float: left;
+}
+    form label{
+        font-size: 1.8rem;
+        font-family: 'Poppins', sans-serif;
+        margin: 5px 15px;
+
+    }
+
+    form input{
+        width: 80%;
+        font-size: 1.3rem;
+        font-family: 'Poppins', sans-serif;
+        margin: 0px 15px;
+        padding: 0px 5px;
+    }
+
+    form textarea{
+        width: 80%;
+        font-size: 1.3rem;
+        font-family: 'Poppins', sans-serif;
+        margin: 0px 15px;
+        padding: 0px 5px;
+    }
+
+main iframe{
+width: 100%;
+margin: 20px 0px 0px 0px;
+}    
+
+
+    
